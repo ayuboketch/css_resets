@@ -1,0 +1,118 @@
+/* CSS Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+/* Reset list styles */
+ol, ul {
+    list-style: none;
+}
+
+/* Reset quotes */
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+/* Reset table styles */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Remove default form element styling */
+input, button, textarea, select {
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    margin: 0;
+}
+
+/* Remove default button styling */
+button {
+    background: none;
+    border: none;
+    padding: 0;
+}
+
+/* Remove default anchor styling */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Remove default image styling */
+img {
+    border-style: none;
+}
+
+/* Reset fieldset and legend */
+fieldset {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+legend {
+    padding: 0;
+}
+
+/* Reset heading margins */
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+
+/* Reset form elements */
+button, input, optgroup, select, textarea {
+    margin: 0;
+    padding: 0;
+}
+
+/* Reset audio and video */
+audio, canvas, video {
+    display: inline-block;
+    max-width: 100%;
+}
+
+/* Remove default iframe border */
+iframe {
+    border: 0;
+}
+
+/* Remove default hr styling */
+hr {
+    border: 0;
+    height: 0;
+}
+
+/* Box sizing reset */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
